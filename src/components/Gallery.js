@@ -16,12 +16,13 @@ const Gallery = () => {
             setImage1((value)=>(value===Gallery1 ? Gallery4 : Gallery1))
             setImage2((value)=>(value===Gallery2 ? Gallery5 : Gallery2))
             setImage3((value)=>(value===Gallery3 ? Gallery6 : Gallery3))
-        },5000);
+        },2900);
     },[])
     return (
         <div className="gallery-container">
             <h1>Gallery</h1>
             <div>
+                <div className="gallery-1"></div>
                 <img src={image1} alt=""/>
                 <img src={image2} alt=""/>
                 <img src={image3} alt=""/>

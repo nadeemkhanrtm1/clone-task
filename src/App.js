@@ -8,7 +8,9 @@ import Gallery from "./components/Gallery";
 import Thingstodo from "./components/Thingstodo";
 import Contact from "./components/Contact";
 import Map from "./components/Map";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Social from "./components/Social";
+import Chat from "./components/Chatbox";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <Contact/>
       <Map/>
       <Footer/>
+      <Social/>
+      <Chat/>
     </div>
   );
 }
